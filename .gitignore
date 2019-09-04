@@ -1,0 +1,7 @@
+dump/*
+result/*
+config/*
+mysql/*
+!.gitkeep
+!config/*.org
+!config/dbConnection_docker.conf
