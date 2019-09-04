@@ -2,6 +2,11 @@
 # この記事について
 mysqldbcompareを利用するためのdocker設定です
 
+以下で詳細な解説をしています。
+
+環境に依存せずに、二つのDBのデータとスキーマの差分を取る方法
+https://qiita.com/go_sagawa/items/4957a9c8f5bf83f74ba4
+
 # 使用準備
 
 - ローカルでmysqldumpを使えるようにしてください。
@@ -23,8 +28,6 @@ mysqldbcompareを利用するためのdocker設定です
 ```
 
 やっている事は以下の通りです。
-- 1.トンネリングする
-- 2.ダンプする
-- 3.ダンプしたものをDBに入れる
-- 4.mysqlcompareを走らす
-
+- 1.ダンプする
+- 2.ダンプしたものをDBに入れる
+- 3.mysqlcompareを走らす
