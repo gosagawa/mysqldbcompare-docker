@@ -4,8 +4,7 @@ mysqldbcompareを利用するためのdocker設定です
 
 以下で詳細な解説をしています。
 
-環境に依存せずに、二つのDBのデータとスキーマの差分を取る方法
-https://qiita.com/go_sagawa/items/4957a9c8f5bf83f74ba4
+[環境に依存せずに、二つのDBのデータとスキーマの差分を取る方法](https://qiita.com/go_sagawa/items/4957a9c8f5bf83f74ba4)
 
 # 使用準備
 
